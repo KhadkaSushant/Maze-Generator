@@ -41,6 +41,11 @@ This project allows users to generate and solve mazes using different algorithms
 
 ## 🏗️ Installation & Setup  
 
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/KhadkaSushant/Maze-Generator.git
+cd Maze-Generator
+```
 
 ### 2️⃣ Setup the Server  
 ```bash
