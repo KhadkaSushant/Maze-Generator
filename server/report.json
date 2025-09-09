@@ -1,0 +1,16 @@
+{
+  "Prim": {
+    "numIntersections": 101,
+    "numDeadEnds": 121,
+    "numSteps": 103.25,
+    "numVisitedIntersections": 36.75,
+    "numVisitedDeadEnds": 22.5
+  },
+  "Kruskal": {
+    "numIntersections": 103,
+    "numDeadEnds": 120.75,
+    "numSteps": 113,
+    "numVisitedIntersections": 39.25,
+    "numVisitedDeadEnds": 26
+  }
+}

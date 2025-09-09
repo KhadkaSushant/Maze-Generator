@@ -1,0 +1,65 @@
+
+.maze-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff; 
+  padding: 30px; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  overflow: hidden; 
+}
+
+.visited-dead-end-counter {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333; 
+  background-color: #d4d2d4; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.maze-group line {
+  transition: stroke 0.3s ease; 
+  stroke: #000000;
+  stroke-width: 2;
+}
+
+.path-group circle {
+  transition: fill 0.3s ease; 
+  fill: #7490a8; 
+}
+
+.path-group line {
+  transition: stroke 0.3s ease;
+  stroke: #2196f3;
+  stroke-width: 2;
+}
+
+.maze-group circle {
+  transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.maze-group circle[fill="green"] {
+  cursor: pointer; 
+}
+
+.maze-group circle[fill="red"] {
+  cursor: pointer; 
+}
+
+.maze-group circle:hover {
+  fill: #ff5722; 
+  stroke: #e64a19; 
+}
+
+.maze-container svg {
+  width: 100%;
+  height: auto;
+}
